@@ -1,0 +1,25 @@
+import { Canvas, Meta, Story, ArgsTable } from '@storybook/addon-docs';
+import { Avatar } from 'components/avatar';
+
+<Meta title="Components/Avatar" component={Avatar} />
+
+# Avatar
+
+### Props
+<ArgsTable of={Avatar} />
+
+## Examples
+
+### Primary
+<Canvas>
+  <Story name="primary">
+    <Avatar />
+  </Story>
+</Canvas>
+
+### src prop
+<Canvas>
+  <Story name="custom src">
+    <Avatar src='https://avatars.dicebear.com/api/human/yard.svg?width=285&mood=sad' />
+  </Story>
+</Canvas>

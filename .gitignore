@@ -1,0 +1,7 @@
+# dependencies
+/node_modules
+
+# built files
+/dist
+
+.npmrc

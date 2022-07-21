@@ -1,0 +1,20 @@
+import { Canvas, Meta, Story, ArgsTable } from '@storybook/addon-docs';
+import { Button } from 'components/button';
+
+<Meta title="Components/Button" component={Button} layout='centered' />
+
+# Button
+
+### Props
+<ArgsTable of={Button} />
+
+## Examples
+
+### Primary
+<Canvas>
+  <Story name="primary">
+    <Button>
+      Button content
+   </Button>
+  </Story>
+</Canvas>
